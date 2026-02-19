@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000000;
+  font-family: 'Poppins', sans-serif;
+}
+
+#universe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ui {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.cta {
+  font-family: 'Imperial Script', cursive;
+  font-size: 42px;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 1px;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: opacity 0.4s ease;
+}
+
+.cta:hover {
+  opacity: 0.6;
+}
+
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgba(0,0,0,0);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 1.2s ease, background 2s ease;
+}
+
+#messageText {
+  max-width: 700px;
+  transition: opacity 0.8s ease;
+}
+
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.final-text {
+  font-size: 56px;
+  font-family: 'Imperial Script', cursive;
+  line-height: 1.3;
+}
+
+
+
+
+#introOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75); /* dark overlay but galaxy visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 50;
+  transition: opacity 1.2s ease;
+}
+
+.introContent {
+  max-width: 600px;
+  padding: 40px;
+}
+
+.introTitle {
+  font-family: 'Imperial Script', cursive;
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.introText {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  opacity: 0.8;
+  margin-bottom: 35px;
+  color: white;
+}
+
+#enterUniverse {
+  padding: 12px 34px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+#enterUniverse:hover {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.hiddenBtn {
+  opacity: 0;
+  transform: translateY(10px);
+  pointer-events: none;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  margin-top: 25px;
+  padding: 10px 28px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 25px;
+}
+
+.hiddenBtn.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+#finalOverlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  transition: opacity 0.8s ease;
+}
+
+#finalText {
+  font-family: 'Imperial Script', cursive;
+  font-size: 48px;
+  transition: opacity 1s ease;
+}
+
+.curious {
+  margin-top: 20px;
+  font-family: 'Imperial Script', cursive;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  cursor: pointer;
+}
