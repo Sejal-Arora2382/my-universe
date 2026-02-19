@@ -14,20 +14,14 @@ Built with:
 
 ---
 
-## Concept
 
-This project explores emotional interaction design.
+## License & Usage
 
-Visitors enter a minimal universe, add a star, and trigger a narrative sequence:
-- Act 1 – Introduction
-- Act 2 – Interaction
-- Act 3 – Emotional Response
-- Act 4 – Design Philosophy Reveal
+This project was created as part of my personal portfolio.
 
-The universe expands because someone showed up.
+You’re welcome to explore the code for learning and inspiration.  
+However, copying, redistributing, or reusing this project (in whole or in part) for commercial or portfolio purposes without permission is not allowed.
 
----
+If you’d like to collaborate or discuss the project, feel free to reach out.
 
-## Author
-
-Sejal Arora  
+© 2026 Sejal Arora. All rights reserved.
