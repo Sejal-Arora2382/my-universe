@@ -120,7 +120,7 @@ html, body {
 #enterUniverse {
   padding: 12px 34px;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   background: transparent;
   color: white;
   border: 1.5px solid white;
@@ -167,13 +167,14 @@ html, body {
 
 #finalText {
   font-family: 'Imperial Script', cursive;
+  font-weight: 400;
   font-size: 48px;
   transition: opacity 1s ease;
 }
 
 .curious {
   margin-top: 20px;
-  font-family: 'Imperial Script', cursive;
+  font-family: 'Poppins', sans-serif;
   opacity: 0;
   transition: opacity 0.8s ease;
   cursor: pointer;
