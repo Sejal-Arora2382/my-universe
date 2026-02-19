@@ -103,6 +103,7 @@ html, body {
 .introTitle {
   font-family: 'Imperial Script', cursive;
   font-size: 56px;
+  font-weight: 400;
   margin-bottom: 20px;
   color: white;
 }

@@ -52,7 +52,7 @@ document.getElementById("curiousLink").addEventListener("click", () => {
 })
 
 contactBtn.addEventListener("click", () => {
-  window.location.href = "/connect"
+  window.location.href = "https://sejal-arora-design-portfolio.framer.website/#contact"
 })
 
 
