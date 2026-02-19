@@ -142,7 +142,7 @@ html, body {
   pointer-events: none;
   transition: opacity 0.8s ease, transform 0.8s ease;
   margin-top: 25px;
-  padding: 10px 28px;
+  padding: 16px 30px;
   background: transparent;
   border: 1px solid white;
   color: white;
@@ -167,6 +167,7 @@ html, body {
 
 #finalText {
   font-family: 'Imperial Script', cursive;
+  white-space: nowrap;
   font-weight: 400;
   font-size: 48px;
   transition: opacity 1s ease;
@@ -174,6 +175,7 @@ html, body {
 
 .curious {
   margin-top: 20px;
+  white-space: nowrap;
   font-family: 'Poppins', sans-serif;
   opacity: 0;
   transition: opacity 0.8s ease;

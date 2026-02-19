@@ -16,7 +16,7 @@ const firebaseConfig = {
 };
 
 const messages = {
-  first: "My universe is expanding because you showed up.",
+  first: "My universe is expanding because you showed up!",
   final: "And that’s how my design speaks."
 }
 
